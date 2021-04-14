@@ -21,12 +21,6 @@ CORS(app)
 def home():
     return render_template('index.html')
 
-
-@app.route("/test", methods=['GET'])
-@cross_origin()
-def test():
-    return render_template('indx.html')
-
 @app.route("/training")
 @cross_origin()
 def training():
@@ -38,11 +32,6 @@ def training():
 def about():
     title= "About the data "
     return render_template('About.html', title = title)
-
-
-
-
-
 
 
 @app.route("/predict", methods=['POST'])
@@ -88,7 +77,9 @@ def predictRouteClient():
 def trainRouteClient():
 
     try:
-        if request.json['folderPath'] is not None:
+        print("entering the train module")
+        if request.json is not None:
+        #if request.json['folderPath'] is not None:
             path = request.json['folderPath']
             print(path)
             train_valObj = train_validation(path) #object initialization
@@ -100,8 +91,9 @@ def trainRouteClient():
             trainModelObj.trainingModel() #training the model for the files in the table
 
         elif request.form is not None:
+            print("entered the FORM method")
             path = request.form['folderPath']
-            path = 'Training_Batch_Files'
+            #path = 'Training_Batch_Files'
 
             print(path)
             train_valObj = train_validation(path) #object initialization

@@ -236,3 +236,38 @@
 2021-03-30/11:40:33		Entered the save_model method of the File_Operation class
 2021-03-30/11:40:33		Model File XGBoost0 saved. Exited the save_model method of the Model_Finder class
 2021-03-30/11:40:33		Successful End of Training
+2021-04-14/10:09:16		Start of Training
+2021-04-14/10:09:16		Entered the get_data method of the Data_Getter class
+2021-04-14/10:09:16		Data Load Successful.Exited the get_data method of the Data_Getter class
+2021-04-14/10:09:16		Entered the is_null_present method of the Preprocessor class
+2021-04-14/10:09:16		Finding missing values is a success.Data written to the null values file. Exited the is_null_present method of the Preprocessor class
+2021-04-14/10:09:16		Entered the separate_label_feature method of the Preprocessor class
+2021-04-14/10:09:16		Label Separation Successful. Exited the separate_label_feature method of the Preprocessor class
+2021-04-14/10:09:16		Entered the elbow_plot method of the KMeansClustering class
+2021-04-14/10:09:20		The optimum number of clusters is: 3 . Exited the elbow_plot method of the KMeansClustering class
+2021-04-14/10:09:20		Entered the create_clusters method of the KMeansClustering class
+2021-04-14/10:09:20		Entered the save_model method of the File_Operation class
+2021-04-14/10:09:20		Model File KMeans saved. Exited the save_model method of the Model_Finder class
+2021-04-14/10:09:20		succesfully created 3clusters. Exited the create_clusters method of the KMeansClustering class
+2021-04-14/10:09:20		Entered the get_best_model method of the Model_Finder class
+2021-04-14/10:09:20		Entered the get_best_params_for_DecisionTreeRegressor method of the Model_Finder class
+2021-04-14/10:10:21		KNN best params: {'criterion': 'friedman_mse', 'max_depth': 8, 'max_features': 'auto', 'min_samples_split': 4, 'splitter': 'best'}. Exited the KNN method of the Model_Finder class
+2021-04-14/10:10:21		Entered the get_best_params_for_xgboost method of the Model_Finder class
+2021-04-14/10:12:17		XGBoost best params: {'learning_rate': 0.5, 'max_depth': 3, 'n_estimators': 100}. Exited the get_best_params_for_xgboost method of the Model_Finder class
+2021-04-14/10:12:17		Entered the save_model method of the File_Operation class
+2021-04-14/10:12:17		Model File XGBoost1 saved. Exited the save_model method of the Model_Finder class
+2021-04-14/10:12:17		Entered the get_best_model method of the Model_Finder class
+2021-04-14/10:12:17		Entered the get_best_params_for_DecisionTreeRegressor method of the Model_Finder class
+2021-04-14/10:13:01		KNN best params: {'criterion': 'mse', 'max_depth': 14, 'max_features': 'log2', 'min_samples_split': 2, 'splitter': 'best'}. Exited the KNN method of the Model_Finder class
+2021-04-14/10:13:01		Entered the get_best_params_for_xgboost method of the Model_Finder class
+2021-04-14/10:14:53		XGBoost best params: {'learning_rate': 0.5, 'max_depth': 3, 'n_estimators': 100}. Exited the get_best_params_for_xgboost method of the Model_Finder class
+2021-04-14/10:14:53		Entered the save_model method of the File_Operation class
+2021-04-14/10:14:53		Model File DecisionTreeReg2 saved. Exited the save_model method of the Model_Finder class
+2021-04-14/10:14:53		Entered the get_best_model method of the Model_Finder class
+2021-04-14/10:14:53		Entered the get_best_params_for_DecisionTreeRegressor method of the Model_Finder class
+2021-04-14/10:15:39		KNN best params: {'criterion': 'friedman_mse', 'max_depth': 14, 'max_features': 'log2', 'min_samples_split': 2, 'splitter': 'best'}. Exited the KNN method of the Model_Finder class
+2021-04-14/10:15:39		Entered the get_best_params_for_xgboost method of the Model_Finder class
+2021-04-14/10:18:09		XGBoost best params: {'learning_rate': 0.5, 'max_depth': 5, 'n_estimators': 100}. Exited the get_best_params_for_xgboost method of the Model_Finder class
+2021-04-14/10:18:09		Entered the save_model method of the File_Operation class
+2021-04-14/10:18:09		Model File DecisionTreeReg0 saved. Exited the save_model method of the Model_Finder class
+2021-04-14/10:18:09		Successful End of Training
