@@ -118,3 +118,5 @@
 
 2021-04-14/10:08:45		LengthOfDateStampInFile:: 8	LengthOfTimeStampInFile:: 6	 NumberofColumns:: 15
 
+2021-04-15/16:44:43		LengthOfDateStampInFile:: 8	LengthOfTimeStampInFile:: 6	 NumberofColumns:: 14
+
